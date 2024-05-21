@@ -1,0 +1,664 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+    <title>Digital Response</title>
+
+    <style>
+        /*Reset*/
+        html {
+            width: 100%;
+        }
+
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .ExternalClass * {
+            line-height: 100%
+        }
+
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none !important;
+        }
+
+        a:visited {
+            color: #000000;
+            text-decoration: none !important;
+        }
+
+        p {
+            text-wrap: pretty;
+        }
+
+        .boton {
+            -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+            -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+            box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+        }
+
+        /*DR Styles*/
+        @media screen and (max-width: 640px) {
+            .logo {
+                width: 150px !important
+            }
+
+            .hide {
+                display: none !important
+            }
+
+            .show {
+                display: block !important
+            }
+
+            .width100 {
+                width: 100% !important;
+                height: auto
+            }
+
+            .width98 {
+                width: 98% !important;
+                height: auto
+            }
+
+            .width95 {
+                width: 95% !important;
+                height: auto !important
+            }
+
+            .width90 {
+                width: 90% !important;
+                height: auto !important
+            }
+
+            .width80 {
+                width: 80% !important;
+                height: auto !important
+            }
+
+            .width70 {
+                width: 70% !important;
+                height: auto !important
+            }
+
+            .width50 {
+                width: 50% !important;
+                height: auto !important
+            }
+
+            .widthauto {
+                width: auto !important;
+                height: auto
+            }
+
+            .heightauto {
+                height: auto !important;
+            }
+
+            .boton {
+                font-size: 12px !important;
+                width: auto !important;
+                min-width: 100px !important
+            }
+
+            .top5 {
+                padding-top: 5px !important
+            }
+
+            .top10 {
+                padding-top: 10px !important
+            }
+
+            .top20 {
+                padding-top: 20px !important
+            }
+
+            .top30 {
+                padding-top: 30px !important
+            }
+
+            .top40 {
+                padding-top: 40px !important
+            }
+
+            .top50 {
+                padding-top: 50px !important
+            }
+
+            .top60 {
+                padding-top: 60px !important
+            }
+
+            .bot5 {
+                padding-bottom: 5px !important
+            }
+
+            .bot10 {
+                padding-bottom: 10px !important
+            }
+
+            .size10 {
+                font-size: 10px !important;
+                line-height: 14px !important
+            }
+
+            .size12 {
+                font-size: 12px !important;
+                line-height: 17px !important
+            }
+
+            .size14 {
+                font-size: 14px !important;
+                line-height: 19px !important
+            }
+
+            .size16 {
+                font-size: 16px !important;
+                line-height: 21px !important
+            }
+
+            .size18 {
+                font-size: 18px !important;
+                line-height: 22px !important
+            }
+
+            .size20 {
+                font-size: 20px !important;
+                line-height: 25px !important
+            }
+
+            .size25 {
+                font-size: 25px !important;
+                line-height: 30 px !important
+            }
+
+            .size30 {
+                font-size: 30px !important;
+                line-height: 34px !important
+            }
+
+            .size40 {
+                font-size: 40px !important;
+                line-height: 44px !important
+            }
+
+            .boton-1,
+            .boton-2 {
+                padding: 15px 5px !important
+            }
+
+            .botonCTA {
+                margin: 30px 0;
+                font-size: 14px !important;
+                padding: 5px 0 !important
+            }
+
+            .rrss {
+                width: 20px !important
+            }
+        }
+
+        [data-ogsc] a {
+            color: #ffffff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!--preheader-->
+    <!--[if !mso 9]><!-->
+    <div style="mso-hide:all;">
+        <table width="0" align="center" cellpadding="0" cellspacing="0" border="0" class="hiddenmobile"
+            bgcolor="#ffffff">
+            <tr>
+                <td align="center" height="0" bgcolor="#ffffff">
+                    <span style="display:none!important;visibility:hidden;opacity:0;color:#ffffff;height:0;width:0">
+                        {{preheader_urf}}
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+                        &nbsp;
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--<![endif]-->
+    <!-- Cabecera -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="640" class="width100">
+                    <!-- Online version -->
+                    <tr>
+                        <td align="center" style="margin: 0;font-size: 0;line-height: 0;letter-spacing:0;padding: 0;">
+                            <a href="https://digitalresponse.es" target="_blank"
+                                style="display: inline-block; padding: 16px 0;">
+                                <img src="images/logo.png" alt="logo cofradia Solar Samaniego" style="border:0"
+                                    class="width70" width="640">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="background-image: url(images/image53.png);background-size: cover;
+                background-repeat: no-repeat;padding:15px 0" class="top10 bot10">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="620"
+                                class="width90">
+                                <tr>
+                                    <td align="center"
+                                        style="color: #000; font-weight:500; padding:0;margin:0;text-transform:uppercase; letter-spacing: 4px;"
+                                        class="size16">
+                                        Bienvenido al programa de beneficios
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center">
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="640" class="width100">
+
+                    <!-- imagen principal -->
+                    <tr>
+                        <td align="center"
+                            style="margin: 0;font-size: 0;line-height: 0;letter-spacing:0;padding: 0; background-image: url(images/MaskGroup.png); background-size: cover;">
+                            <img src="images/SolarSamaniego7Cepas.png" width="640" alt="Solar Samaniego 7Cepas logo"
+                                style="border:0; padding: 30px 0;" class="width50">
+                        </td>
+                    </tr>
+                    <!-- textos principales -->
+                    <tr>
+                        <td class="top30" style="padding-bottom: 30px;">
+                            <p class="width90 size18"
+                                style="text-align: center; font-style: italic; margin: 0 auto; text-wrap: pretty;">
+                                Estimado Cofrade, Es un placer
+                                ponerme en contacto con usted para comunicarle que desde este momento, ya
+                                puede
+                                disfrutar
+                                de las ventajas de ser <strong>cofrade Oro</strong> .</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="background-image: url(images/image53.png);background-size: cover;
+                                                            background-repeat: no-repeat;padding:15px 0;"
+                            class="top10 bot5"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="top30 bot10">
+                            <p class=" width90 size18" style="text-align: center; font-style: italic; margin: 0 auto; ">
+                                A continuación el enviamos el carnet que le acredita
+                                como Cofrade Oro.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=" center">
+                            <img src=" images/tarjeta-an1.png" class="width80" alt="carnet cofrade"
+                                style="display: inline-block;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="top10" style="padding-bottom: 20px;">
+                            <p class=" width90 size18" style="text-align: center; font-style: italic; margin: 0 auto; ">
+                                Le recordamos que desde este mismo momento, ya puede disfrutar de las siguientes
+                                ventajas:</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="images/top2.png" alt="section pointer image"
+                                        style="display: inline-block; padding-bottom: 20px;" class="width100">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h2 style="text-align: center;  margin: 0; color: #000; font-weight:500; padding:0;margin:0;text-transform:uppercase; letter-spacing: 4px;"
+                                        class="size14">programa de</h2>
+                                    <h1 style="text-align: center;  margin: 0; color: #000; font-weight:500; padding:0;margin:0;text-transform:uppercase; letter-spacing: 4px;"
+                                        class="size30">privilegios</h1>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img src="images/separador-7cepas.png" class="width90" style="display: inline-block;"
+                                alt="7 cepas separator image">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="top10">
+                            <p class=" width90 size18"
+                                style="text-align: center; font-style: italic; margin: 0 auto; padding-bottom: 20px;">
+                                Descubra el programa de privilegios de 7Cepas y los regalos que recibirá por la compra
+                                de su caja:</p>
+                        </td>
+                    <tr>
+                        <table align="center">
+                            <tr>
+                                <td>
+                                    <span
+                                        style=" font-size: 58px; letter-spacing:-6px; padding: 0 8px ; color: #AE9560;">
+                                        10
+                                    </span>
+                                <td>
+                                    <p>
+                                        <span
+                                            style="font-size: 10px; color: #AE9560; text-transform: uppercase; line-height: 11px;">dto</span><br>
+                                        <span
+                                            style="font-size: 24px; color: #AE9560; font-style: italic;line-height: 27px;">%</span>
+                                    </p>
+                                </td>
+            </td>
+            <td>
+                <p style="padding-left: 6px;">
+                    <span style="font-size: 22px; font-weight: bold; text-transform: uppercase;">en todos</span><br>
+                    <span style="font-size: 17px; font-weight: bold; text-transform: uppercase;">sus pedidos</span>
+                </p>
+            </td>
+        </tr>
+    </table>
+    </tr>
+    </tr>
+
+    <tr>
+
+        <td>
+            <p class=" width80 size18 top10"
+                style="text-align: center; font-style: italic; margin: 0 auto; padding-bottom: 20px; border-bottom: 1px solid #AE9560;">
+                Benefíciese de un
+                <strong>10%
+                    de descuento</strong> al realizar
+                cualquier pedido de vino hasta abril de 2025
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <table align="center">
+            <tr>
+                <td class="top10">
+                    <img src="images/camion.png" alt="truck icon" width="62">
+                </td>
+                <td class="top10">
+                    <p style="padding-left: 6px;">
+                        <span style="font-size: 16px; font-weight: bold; text-transform: uppercase;">envios
+                            gratis</span><br>
+                        <span style="font-size: 22px; font-weight: bold; text-transform: uppercase;">dos meses</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <tr>
+        <p class=" width80 size18 top10"
+            style="text-align: center; font-style: italic; margin: 0 auto; padding-bottom: 20px;">
+            Disfrutará del <strong>servicio de envío en sus pedidos de forma gratuita</strong> durante los meses de
+            julio y agosto de
+            2024
+        </p>
+    </tr>
+
+    <tr>
+        <td align="center" style="padding:30px 0 0" class="top20">
+            <table width="348" align="center" cellpadding="0" cellspacing="0" class="width70" style="margin:0 auto;">
+                <tr>
+                    <td ${rtl}
+                        style="font-family: Verdana, Geneva, Tahoma, sans-serif !important; font-size:20px;color:#ffffff;line-height:22px;text-align: center;text-transform: uppercase">
+
+                        <div style="mso-hide:all;">
+                            <a target="_blank"
+                                style="color:#ffffff;display:block;text-decoration:none; align-items: center;"
+                                href="https://digitalresponse.es">
+                                <span class="botonCTA"
+                                    style="color: #ffffff;font-family: Verdana, Geneva, Tahoma, sans-serif !important; display:block;line-height:20px;text-align: center;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;border:1px solid #AE9560;width:100%;background-color: #AE9560;">
+                                    MÁS INFORMACIÓN
+                                </span>
+                            </a>
+                        </div>
+                        <!--<![endif]-->
+                    </td>
+                </tr>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="images/down2.png" alt="section ending image"
+                                style="display: inline-block; width: 100%;">
+                        </td>
+                    </tr>
+                </table>
+            </table>
+        </td>
+    </tr>
+    <table class="width100" style="height: fit-content;  background-color: #AE9560;">
+        <tr>
+            <td>
+                <h2 class="size40"
+                    style="text-align: center; margin: 30px 0 0; font-weight: 500; color: #ffffff; font-style: italic;">
+                    A su disposición
+                </h2>
+                <p class="size18" style="text-align: center; margin: 0; color: #ffffff; font-style: italic;">Servicio de
+                    Atención al
+                    Cofrade
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding: 20px 0 30px;">
+                <a href="https://digitalresponse.es" class="boton size10"
+                    style="font-family: Verdana, Geneva, Tahoma, sans-serif;  text-transform: uppercase;  background-color: #ffffff; color: #AE9560; width: 45%; padding: 8px 12px; border-radius: 8px; border: 1px solid #AE9560; display: inline-block;">iniciar
+                    chat
+                    ahora</a>
+                <a href="https://digitalresponse.es" class="boton size10"
+                    style="font-family: Verdana, Geneva, Tahoma, sans-serif;  text-transform: uppercase;  background-color: #ffffff; color: #AE9560; width: 45%; padding: 8px 12px; border-radius: 8px; border: 1px solid #AE9560; display: inline-block;">llamar
+                    <strong>945 943 629</strong> </a>
+            </td>
+        </tr>
+    </table>
+    <table class="width100" style="border-bottom: 3px solid #AA3955;">
+        <tr>
+            <td>
+                <h2 class="size25 top10"
+                    style="text-align: center; margin-bottom: 0; font-weight: 500; color: #000; font-style: italic;">
+                    ¿Todavía no ha iniciado sesión?</h2>
+                <p class="size18" style="text-align: center; margin: 0; font-style: italic;">
+                    Reinicie su contraseña e inicie sesión para <br> ver sus descuentos de cofrade.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td ${rtl}
+                style="font-family: Verdana, Geneva, Tahoma, sans-serif !important; font-size:20px;color:#ffffff;line-height:22px;text-align: center;text-transform: uppercase">
+
+                <div style="mso-hide:all;">
+                    <a target="_blank"
+                        style="text-align: -webkit-center; color:#ffffff;display:block;text-decoration:none; align-items: center;"
+                        href="https://digitalresponse.es">
+                        <span class="botonCTA width70"
+                            style="color: #ffffff;font-family: Verdana, Geneva, Tahoma, sans-serif !important; display:block;line-height:20px;text-align: center;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;border:1px solid #AE9560;width:100%;background-color: #AE9560;">
+                            RESTABLECER CONTRASEÑA
+                        </span>
+                    </a>
+                </div>
+                <!--<![endif]-->
+            </td>
+        </tr>
+    </table>
+    <!-- 3 imágenes  -->
+    <tr>
+        <td align="center" style="padding:50px" class="top40">
+            <table width="640" cellpadding="0" cellspacing="0" class="width100" align="center" role="presentation">
+                <tr>
+                    <td width="33%" align="center" style="
+                        margin:0;font-size:0;line-height:0;letter-spacing:0;padding:30px 0">
+                        <a href="https://digitalresponse.es" class="button">
+                            <img src="images/image 9.png" height="30" alt="house icon" style="border:0">
+                        </a>
+                        <p class="top10 size12"
+                            style="margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif !important; font-weight: 500;">
+                            De la bodega <br>
+                            <strong>a su casa</strong>
+                        </p>
+                    </td>
+                    <td width="33%" align="center"
+                        style="margin:0;font-size:0;line-height:0.8;letter-spacing:0;padding:30px 0">
+                        <a href="https://digitalresponse.es" class="button">
+                            <img src="images/image11.png" height="30" alt="cake icon" style="border:0">
+                        </a>
+                        <p class="top10 size12"
+                            style="margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif !important; font-weight: 500;">
+                            <strong>40 años</strong>
+                            <br>de experiencia
+                        </p>
+                    </td>
+                    <td width="33%" align="center"
+                        style="margin:0;font-size:0;line-height:0;letter-spacing:0;padding:30px 0">
+                        <a href="https://digitalresponse.es" class="button">
+                            <img src="images/image13.png" height="30" alt="handshake icon" style="border:0">
+                        </a>
+                        <p class="top10 size12"
+                            style="margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif !important; font-weight: 500;">
+                            <strong>Satisfacción </strong>
+                            <br>garantizada
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <table class="width100">
+        <tr>
+            <td align="center">
+                <p class="size12 width80"
+                    style="background-color: #F2E1E6; border-radius: 10px; margin: 0; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 400;padding: 10px; text-wrap: pretty;">
+                    También podrá encontrarnos en <strong>nuestras redes sociales:</strong> <br>
+                    <a href="https://digitalresponse.es"><img src="images/image14.png" width="40"
+                            style="padding: 5px 5px 0;" alt="facebook logo"></a>
+                    <a href="https://digitalresponse.es"><img src="images/image15.png" width="40"
+                            style="padding: 5px 5px 0;" alt="instagram logo"></a>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table class="width100">
+        <tr>
+            <td align="center" class="top30">
+                <table width="640" cellpadding="0" cellspacing="0" class="width100" align="center" role="presentation">
+                    <tr>
+                        <td width="50%" align="center" style="position: relative;">
+                            <a href="https://digitalresponse.es">
+                                <img src="images/image18.png" width="140" alt="star rating image" style="border:0">
+                            </a>
+                            <p
+                                style=" width: 100%;margin: 0; position: absolute;top: 28%; left: 52%;font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 400;">
+                                <strong>9.2 / 10</strong>
+                            </p>
+                            <p
+                                style=" width: 100%;margin: 0; position: absolute;top: 60%; left: 27%;font-size: 8px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 400;">
+                                Número total de opiniones <strong>31.542</strong> </p>
+                        </td>
+                        <td width="50%" align="center" style="margin:0;font-size:0;line-height:0;letter-spacing:0">
+                            <a href="https://digitalresponse.es">
+                                <img src="images/image16.png" width="110" alt="wine in moderation logo"
+                                    style="border:0">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table class="width100">
+        <tr>
+            <td align="center" class="top30" style="padding-bottom: 40px;">
+                <table width="640" cellpadding="0" cellspacing="0" class="width100" align="center" role="presentation">
+                    <tr>
+                        <td align="center">
+                            <p class="width80 size10"
+                                style="margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 400; text-wrap: pretty;">
+                                Recibe esta comunicación porque es usted cofrade o se ha suscrito a nuestra newsletter.
+                                <br><br>
+                                Si no desea recibir más
+                                comunicaciones por medios electrónicos puede darse de baja escribiendo a la siguiente
+                                dirección <strong style="color: #AA3955;">cofradia@solardesamaniego.com</strong>
+                                indicando en el asunto “baja de
+                                comunicaciones”.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
